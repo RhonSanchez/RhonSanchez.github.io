@@ -12,7 +12,7 @@
 			</hgroup>			
 			<ol>
 				<li><a href="#sobremi">Sobre Mí</a></li>
-				<li><a href="#proyectos">Proyectos</a></li>
+				<li><a href="#portafolio">Portafolio</a></li>
 				<li><a href="#habilidades">Habilidades</a></li>
 				<li><a href="#estudios">Estudios</a></li>
 				<li><a href="#experiencia">Experiencia y Colaboraciones</a></li>
@@ -23,136 +23,138 @@
 	<section>
 		<img src="images/web.jpg" width="1280" height="650">
 	</section>
-	<section id="sobremi">
-		<img src="images/rhonald.jpg" width="500" height="500">
-		<hgroup>
-			<h2>Sobre Mí</h2>
-			<h3>Hola, soy <strong>Rhonald Sánchez</strong> pero me puedes decir <strong>Rhon</strong>, soy de Venezuela y tengo 21 años de edad. Soy un apasionado por el <strong>Desarrollo Web</strong>, dispuesto siempre a nuevos retos y bajo un constante aprendizaje</h3>
-		</hgroup>
-	</section>
-	<section id="proyectos">
-		<h2>Proyectos</h2>
-			<article>
-				<div>
-					<h3>Musical Academy</h3>
-					<p><small><strong>Fecha:</strong> 03/2018</small></p>
-					<p><small><strong>Puedes verlo en: </strong><a href="https://rhonsanchez.github.io/MusicalAcademy">rhonsanchez.github.io/MusicalAcademy</a></small></p>
-					<p>Landing Page acerca de una academia ficticia de música. En ella se utilizaron frameworks y librerias como: flexbox, bootstrap, normalize; Ademas tambien se utilizo la API de Google Maps.</p>
-				</div>
-				<figure>
-					<img src="images/musicalacademy.png">
-				</figure>
-				<a href="">Ver Más</a>
-			</article>
-			<article>
-				<div>
-					<h3>Your Free Security Sistem</h3>
-					<p><small><strong>Fecha:</strong> 05/2018</small></p>
-					<p><small><strong>Puedes verlo en: </strong><a href="https://yourfreesecuritysystem.com/">yourfreesecuritysystem.com</a></small></p>
-					<p>Website acera de una empresa real de sistemas de seguridad. Creada como freelancer en desarrollo frontend en la empresa Enigma Solutions junto a otros desarrolladores. En ella se utilizo el framework de bootstrap y se construyo en el CMS Wordpress.</p>
-				</div>
-				<figure>
-					<img src="images/yourfreesecurity.png">
-				</figure>
-				<a href="">Ver Más</a>
-			</article>
-			<article>
-				<div>
-					<h3>Comic App</h3>
-					<p><small><strong>Fecha:</strong> 04/2019</small></p>
-					<p><small><strong>Puedes verlo en: </strong><a href="https://yourfreesecuritysystem.com/">yourfreesecuritysystem.com</a></small></p>
-					<p>Una Single Page Aplication acerca de personajes de los famosos comics de DC y Marvel. Proyecto personal utilizando el framework de bootstrap y Angular en su versión 7.</p>
-				</div>
-				<figure>
-					<img src="images/comicapp.png">
-				</figure>
-				<a href="">Ver Más</a>
-			</article>
-			<article>
-				<div>
-					<h3>Quieres saber más de mis proyectos?</h3>
-					<p>Puedes entrar a mi repositorio de GitHub en: <a href="https://github.com/RhonSanchez">github.com/RhonSanchez</a> y conocer más sobre lo que he hecho en toda mi trayectoria como desarrollador.</p>
-				</div>
-			</article>
-	</section>
-	<section id="habilidades">
-		<h2>Habilidades</h2>
-		<div>
-			<p>html</p>
-			<p>css</p>
-			<p>JS</p>
-			<p>MySQL</p>
-			<p>PHP</p>
-			<p>Laravel</p>
-			<p>Angular</p>
-			<p>Nodejs</p>
-			<p>wordpress</p>
-			<p>bootstrap</p>
-			<p>Git y GitHub</p>
-			<p>Ingles</p>
+	<section id="sobremi" class="hero">
+		<div class="container">
+			<img src="images/rhonald.jpg" width="500" height="500">
+			<hgroup>
+				<h2>Sobre Mí</h2>
+				<h3>Hola, soy <strong>Rhonald Sánchez</strong> pero me puedes decir <strong>Rhon</strong>, soy de Venezuela y tengo 21 años de edad. Soy un apasionado por el <strong>Desarrollo Web</strong>, dispuesto siempre a nuevos retos y bajo un constante aprendizaje</h3>
+			</hgroup>
 		</div>
 	</section>
-	<section id="estudios">
+	<section id="portafolio" class="portfolio">
+		<h2>Proyectos</h2>
+			<article class="project">
+				<div class="project-detail">
+					<h3 class="project-title">Musical Academy</h3>
+					<p class="project-date"><small><strong>Fecha:</strong> 03/2018</small></p>
+					<p class="project-url"><small><strong>Puedes verlo en: </strong><a href="https://rhonsanchez.github.io/MusicalAcademy">rhonsanchez.github.io/MusicalAcademy</a></small></p>
+					<p class="project-description">Landing Page acerca de una academia ficticia de música. En ella se utilizaron frameworks y librerias como: flexbox, bootstrap, normalize; Ademas tambien se utilizo la API de Google Maps.</p>
+				</div>
+				<figure class="project-imageContainer">
+					<img class="project-image" src="images/musicalacademy.png" alt="Home de Musical Academy">
+				</figure>
+				<a class="project-view" href="#">Ver Más</a>
+			</article>
+			<article class="project">
+				<div class="project-detail">
+					<h3 class="project-title">Your Free Security Sistem</h3>
+					<p class="project-date"><small><strong>Fecha:</strong> 05/2018</small></p>
+					<p class="project-url"><small><strong>Puedes verlo en: </strong><a href="https://yourfreesecuritysystem.com/">yourfreesecuritysystem.com</a></small></p>
+					<p class="project-description">Website acera de una empresa real de sistemas de seguridad. Creada como freelancer en desarrollo frontend en la empresa Enigma Solutions junto a otros desarrolladores. En ella se utilizo el framework de bootstrap y se construyo en el CMS Wordpress.</p>
+				</div>
+				<figure class="project-imageContainer">
+					<img class="project-image" src="images/yourfreesecurity.png" alt="Home de Your Free Security Sistem">
+				</figure>
+				<a class="project-view" href="#">Ver Más</a>
+			</article>
+			<article class="project">
+				<div class="project-detail">
+					<h3 class="project-title">Comic App</h3>
+					<p class="project-date"><small><strong>Fecha:</strong> 04/2019</small></p>
+					<p class="project-url"><small><strong>Puedes verlo en: </strong><a href="https://yourfreesecuritysystem.com/">yourfreesecuritysystem.com</a></small></p>
+					<p class="project-description">Una Single Page Aplication acerca de personajes de los famosos comics de DC y Marvel. Proyecto personal utilizando el framework de bootstrap y Angular en su versión 7.</p>
+				</div>
+				<figure class="project-imageContainer">
+					<img class="project-image" src="images/comicapp.png">
+				</figure>
+				<a class="project-view" href="#">Ver Más</a>
+			</article>
+			<article class="project-more">
+				<div class="project-more-detail">
+					<h3 class="project-more-title">Quieres saber más de mis proyectos?</h3>
+					<p class="project-more-description">Puedes entrar a mi repositorio de GitHub en: <a href="https://github.com/RhonSanchez">github.com/RhonSanchez</a> y conocer más sobre lo que he hecho en toda mi trayectoria como desarrollador.</p>
+				</div>
+			</article>
+	</section>
+	<section id="habilidades" class="ability">
+		<h2 class="ability-title">Habilidades</h2>
+		<div class="ability-container">
+			<p class="ability-item">html</p>
+			<p class="ability-item">css</p>
+			<p class="ability-item">JS</p>
+			<p class="ability-item">MySQL</p>
+			<p class="ability-item">PHP</p>
+			<p class="ability-item">Laravel</p>
+			<p class="ability-item">Angular</p>
+			<p class="ability-item">Nodejs</p>
+			<p class="ability-item">wordpress</p>
+			<p class="ability-item">bootstrap</p>
+			<p class="ability-item">Git y GitHub</p>
+			<p class="ability-item">Ingles</p>
+		</div>
+	</section>
+	<section id="estudios" class="study">
 		<h2>Estudios</h2>
 		<article>
-			<div>
-				<h3>UCLA</h3>
-				<p>Actualmente curso el septimo semestre de Ing. Informatica en la Universidad Centro Occidental "Lisandro Alvarado" (UCLA)</p>
+			<div class="container">
+				<h3 class="study-title">UCLA</h3>
+				<p class="study-description">Actualmente curso el septimo semestre de Ing. Informatica en la Universidad Centro Occidental "Lisandro Alvarado" (UCLA)</p>
 			</div>
-			<figure>
-				<img src="images/ucla.jpg">
+			<figure class="study-imageContainer">
+				<img class="study-image" src="images/ucla.jpg" alt="Logo UCLA">
 			</figure>
 		</article>
 		<article>
-			<div>
-				<h3>Platzi</h3>
-				<p>Acte Becentrar a mi repositorioode GitHub r la escual online en tecnologia Platzi, realizando las carreras de Arquitectura de Frontdamentos en Programación y Backend en JavaScript</p>
-				<figure>
-					<img src="images/platzi.png">
+			<div class="container">
+				<h3 class="study-title">Platzi</h3>
+				<p class="study-description">Acte Becentrar a mi repositorioode GitHub r la escual online en tecnologia Platzi, realizando las carreras de Arquitectura de Frontdamentos en Programación y Backend en JavaScript</p>
+				<figure class="study-imageContainer">
+					<img class="study-image" src="images/platzi.png" alt="Logo Platzi">
 				</figure>
 			</div>
-			<figure>
-				<img src="images/platzi-curso.png">
+			<figure class="study-imageContainer-course">
+				<img class="study-image-course" src="images/platzi-curso2.png" alt="Curso de Programacion Básica">
 			</figure>
-			<figure>
-				<img src="images/platzi-curso2.png">
+			<figure class="study-imageContainer-course">
+				<img class="study-image-course" src="images/platzi-curso.png" alt="Curso de Marca Personal">
 			</figure>
-			<figure>
-				<img src="images/platzi-curso3.png">
+			<figure class="study-imageContainer-course">
+				<img class="study-image-course" src="images/platzi-curso3.png" alt="Curso de Desarrollo Web Online">
 			</figure>
-			<figure>
-				<img src="images/platzi-curso4.png">
+			<figure class="study-imageContainer-course">
+				<img class="study-image-course" src="images/platzi-curso4.png" alt="Curso de Git y GitHub">
 			</figure>
 		</article>
 	</section>
-	<section id="experiencia">
+	<section id="experiencia" class="experiencie">
 		<h2>Experiencia y Colaboraciones</h2>
 		<article>
-			<div>
-				<p>Enigma Solutions</p>
-				<p>Duracion: 3 meses</p>
-				<p>Trabajé como freelancer en 3 proyectos como desarrollador web utilizando el CMS de wordpress</p>
+			<div class="experiencie-container">
+				<p class="experiencie-name">Enigma Solutions</p>
+				<p class="experiencie-duration">Duracion: 3 meses</p>
+				<p class="experiencie-description">Trabajé como freelancer en 3 proyectos como desarrollador web utilizando el CMS de wordpress</p>
 			</div>
-			<figure>
-				<img src="images/enigma.png" style="background-color: black">
+			<figure class="experiencie-imageContainer">
+				<img class="experiencie-image" src="images/enigma.png" style="background-color: black" alt="Logo Enigma Solutions">
 			</figure>
 		</article>
 		<article>
-			<div>
-				<p>Proyecto Ucla</p>
-				<p>Duracion: 6 meses</p>
-				<p>Colaboración junto a un equipo de trabajo, para la creación de un sistema de apuestas deportivas. Mi rol en el equipo fue como desarrollador backend y administrador de bases de datos</p>
+			<div class="experiencie-container">
+				<p class="experiencie-name">Proyecto Ucla</p>
+				<p class="experiencie-duration">Duracion: 6 meses</p>
+				<p class="experiencie-description">Colaboración junto a un equipo de trabajo, para la creación de un sistema de apuestas deportivas. Mi rol en el equipo fue como desarrollador backend y administrador de bases de datos</p>
 			</div>
-			<figure>
-				<img src="images/thunder.jpg">
+			<figure class="experiencie-imageContainer">
+				<img class="experiencie-image" src="images/thunder.jpg" alt="Logo Thunder">
 			</figure>
 		</article>
 	</section>
-	<section id="trabajemos">
-		<form>
-			<h2>Creamos algo Juntos?</h2>
+	<section id="trabajemos" class="contact">
+		<form class="contact-form">
+			<h2 class="contact-title">Creamos algo Juntos?</h2>
 			<input type="email" name="email">
-			<button>Enviar</button>
+			<button class="contact-btn">Enviar</button>
 		</form>
 		<div class="social">
 				<a href="#" class="social-link twitter"></a>
