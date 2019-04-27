@@ -1,0 +1,59 @@
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Fjalla One', sans-serif;
+}
+
+/*Estilos para el header*/
+.header {
+	background-color: #000;
+	color: white;
+	justify-content: space-between;
+	height: 70px;
+	display: flex;
+}
+
+.header ol {
+	display: flex;
+	height: inherit;
+	margin: 0;
+}
+
+.header ol li {
+	height: inherit;
+}
+
+.container h1 {	    
+	margin: 15px 0 0 0;
+}
+
+ ol, ul {
+ 	list-style: none;
+}
+
+.menu {
+	height: inherit;
+}
+
+.header a {
+	color: white;
+	text-decoration: none;
+	height: inherit;
+	display: flex;
+	align-items: center;
+	padding: 0 10px;
+	font-weight: 600;
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+	display: inherit;
+	justify-content: inherit;
+	align-items: inherit;
+	height: inherit;
+	flex-wrap: inherit;
+}
