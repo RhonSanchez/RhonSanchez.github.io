@@ -9,7 +9,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /*Estilos para el header*/
 .header {
-	background-color: #000;
+	background-color: #1b2127;
 	color: white;
 	justify-content: space-between;
 	height: 70px;
@@ -56,4 +56,14 @@ h1, h2, h3, h4, h5, h6 {
 	align-items: inherit;
 	height: inherit;
 	flex-wrap: inherit;
+}
+
+/*Imagen de portada*/
+.cover-image img {
+	display: block;
+	margin: auto;
+}
+
+.cover-image {
+	background-color: #1b2127;
 }
