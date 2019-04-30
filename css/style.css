@@ -211,3 +211,102 @@ h2 {
 	color: black;
 	font-weight: 600;
 }
+
+/*seccion de Habilidades*/
+.ability {
+	background-color: #026fff;
+	padding: 20px;
+}
+
+.ability-title {
+	color: white;
+	text-align: center;
+	margin: 0;
+}
+
+.ability-item {
+	color: white;
+	font-size: 20px;
+	font-weight: 500;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.progress {
+	border-radius: 10px;
+	margin: auto;
+}
+
+.ability-progress {
+	width: 1000px;
+	max-height: 40px;
+	background-color: white;
+	padding: 10px;
+}
+
+.progress-item {
+	height: 20px;
+	margin: 5px;
+	margin: 0 5px;
+}
+
+.ability-html {
+	width: 85%;
+	background-color: green;
+}
+
+.ability-css {
+	width: 60%;
+	background-color: yellow;
+}
+
+.ability-js {
+	width: 40%;
+	background-color: yellow;
+}
+
+.ability-mysql {
+	width: 40%;
+	background-color: yellow;
+}
+
+.ability-php {
+	width: 40%;
+	background-color: yellow;
+}
+
+.ability-laravel {
+	width: 50%;
+	background-color: yellow;
+}
+
+.ability-angular {
+	width: 60%;
+	background-color: yellow;
+}
+
+.ability-node {
+	width: 40%;
+	background-color: yellow;
+}
+
+.ability-wp {
+	width: 50%;
+	background-color: yellow;
+}
+
+.ability-bootstrap {
+	width: 55%;
+	background-color: yellow;
+}
+
+.ability-git {
+	width: 65%;
+	background-color: yellow;
+}
+
+.ability-english {
+	width: 20%;
+	background-color: red;
+}
+
