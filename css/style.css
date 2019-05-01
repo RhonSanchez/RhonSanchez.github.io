@@ -310,3 +310,69 @@ h2 {
 	background-color: red;
 }
 
+/*seccion de estudios*/
+.study .container h2 {
+	font-size: 50px;
+	color: white;
+}
+
+.ucla {
+	background-color: white;
+}
+
+.platzi {
+	background-color: #2C2F34;
+}
+
+
+.study-title-ucla {
+	color: black;
+	font-size: 70px;
+	text-align: center;
+}
+
+.study-title-platzi {
+	color: white;
+	font-size: 70px;
+	text-align: center;
+}
+
+.study-description-ucla {
+	color: black;
+	font-size: 30px;
+	text-align: justify;
+}
+
+.study-description-platzi {
+	color: white;
+	font-size: 30px;
+	text-align: justify;
+}
+
+.studyContainer {
+	margin: 20px 0 20px 0;
+	border-radius: 30px;
+	padding: 20px;
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.study-course {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.study-image, .img.course {
+	object-fit: cover;	
+}
+
+.img-course {
+	width: 370px;
+	height: 250px;
+}
+
+.study-imageContainer-course {
+	margin: 30px 0 30px 0;
+}
