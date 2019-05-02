@@ -376,3 +376,59 @@ h2 {
 .study-imageContainer-course {
 	margin: 30px 0 30px 0;
 }
+
+/*seccion de experiencia y colaboraciones*/
+.experience-list {
+	background-color: white;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.experience {
+	margin: 10px;
+    width: 480px;
+    border-radius: 10px;
+    overflow: hidden;
+    flex-shrink: 0;
+    background: lightgrey;
+    border: 1px solid black;
+}
+
+.experience-space {
+	justify-content: space-around;
+}
+
+.experience-image {
+    object-fit: cover;
+}
+
+.experience-container {
+	margin: 20px 40px;
+    margin-top: -40px;
+    background-color: #f4fbff;
+    position: relative;
+    padding: 20px;
+    text-align: center;
+}
+
+.img-enigma {
+	background-color: black;
+	max-width: 440px;
+	height: 200px;
+	margin: 0;
+	padding: 50px 80px;
+}
+
+.img-thunder {
+	max-width: 480px;
+	max-height: 300px;
+	margin: 0;
+}
+
+figure {
+	margin: 0;
+}
+
+.experience-duration, .experience-description {
+	text-align: left;
+}
