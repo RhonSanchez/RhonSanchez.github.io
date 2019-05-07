@@ -108,6 +108,7 @@ h3 strong {
 .hero-image {
 	object-fit: cover;
 	height: inherit;
+	margin-top: 50px;
 }
 
 /*seccion de portafolio*/
@@ -326,15 +327,17 @@ h2 {
 
 
 .study-title-ucla {
-	color: black;
+	color: #3185C1;
 	font-size: 70px;
 	text-align: center;
+	letter-spacing: 5px;
 }
 
 .study-title-platzi {
 	color: white;
 	font-size: 70px;
 	text-align: center;
+	letter-spacing: 5px;
 }
 
 .study-description-ucla {
