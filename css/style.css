@@ -52,6 +52,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .container {
 	max-width: 1200px;
+	flex: 1;
 	margin: 0 auto;
 	display: inherit;
 	justify-content: inherit;
@@ -515,8 +516,28 @@ footer {
 
 }
 
-@media screen and (max-width: 768){
-	
+@media screen and (max-width: 767px){
+	.header {
+		display: block;
+		height: auto;
+	}
+
+	.header ol {
+		display: block;
+		padding: 0;
+	}
+
+	.header ol li {
+		height: 50px;
+	}
+
+	.header a {
+		justify-content: center;
+	}
+
+	.header h1 {
+		text-align: center;	
+	}
 }
 
 @media screen and (max-width: 480px){
