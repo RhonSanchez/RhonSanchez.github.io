@@ -2,6 +2,7 @@ body {
 	font-family: 'Source Sans Pro', sans-serif;
 	margin: 0 auto;
 	background-color: #1b2127;
+	/*background: white;*/
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -29,7 +30,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .container h1 {	    
-	margin: 15px 0 0 0;
+	margin: 0;
+	padding: 10px;
 }
 
  ol, ul {
@@ -134,7 +136,7 @@ h3 strong {
 }
 
 .project-detail {
-	width: 500px;
+	width: 400px;
 }
 
 h2 {
@@ -166,11 +168,15 @@ h2 {
 }
 
 .project-details {
-	width: 500px;
+	width: 50%;
 }
 
 .project-imageContainer {
-	width: 500px;
+	width: 50%;
+}
+
+.project-imageContainer img {
+	max-width: 100%;
 }
 
 .project-url a {
@@ -516,7 +522,7 @@ footer {
 
 }
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 882px){
 	.header {
 		display: block;
 		height: auto;
@@ -538,10 +544,71 @@ footer {
 	.header h1 {
 		text-align: center;	
 	}
+
+	.project-detail {
+		width: 100%;
+	}
+
+	.project-imageContainer {
+		width: auto;
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 767px){
+
+	.project {
+		display: block;
+	}
+
+	.project-details {
+		width: auto;
+		font-size: 16px;
+	}
+
+	.project-detail {
+    	width: 100%;
+    	text-align: center;
+	}
+
+	.project-date, .project-url {
+		margin: .3em 0;
+	}
+
+	.project-title {
+		font-size: 1.5em;
+		margin-bottom: .3em;
+	}
+
+	.project-url a {
+		font-size: 1em;
+	}
+
+	.project-date {
+		font-size: 1em;
+	}
+
+	.project-description {
+		font-size: .8em;
+	}
 }
 
 @media screen and (max-width: 480px){
-	
+	.project-details {
+		font-size: 12px;
+	}
+
+	.project-more-detail {
+		font-size: 16px;
+	}
+
+	.project-more-title {
+		font-size: 1em;
+	}
+
+	.project-more-description {
+		font-size: .8em;
+	}
 }
 
 @media screen and (max-width: 320px){
