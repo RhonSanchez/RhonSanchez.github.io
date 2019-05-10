@@ -1,7 +1,7 @@
 body {
 	font-family: 'Source Sans Pro', sans-serif;
 	margin: 0 auto;
-	background-color: #1b2127;
+	/*background-color: #1b2127;*/
 	/*background: white;*/
 }
 
@@ -249,7 +249,7 @@ h2 {
 }
 
 .ability-progress {
-	width: 1000px;
+	width: 85%;
 	max-height: 40px;
 	background-color: white;
 	padding: 10px;
@@ -395,12 +395,12 @@ h2 {
 .experience-list {
 	background-color: white;
 	display: flex;
-	flex-wrap: wrap;
 }
 
 .experience {
-	margin: 10px;
-    width: 480px;
+	margin: 1%;
+    width: 48%;
+    height: 50%;
     border-radius: 10px;
     overflow: hidden;
     flex-shrink: 0;
@@ -414,6 +414,7 @@ h2 {
 
 .experience-image {
     object-fit: cover;
+    width: 100%;
 }
 
 .experience-container {
@@ -428,15 +429,14 @@ h2 {
 .img-enigma {
 	background-color: black;
 	max-width: 440px;
-	height: 200px;
+	height: 100px;
 	margin: 0;
-	padding: 50px 80px;
+	padding: 10% 20%;
 }
 
 .img-thunder {
-	max-width: 480px;
-	max-height: 300px;
-	margin: 0;
+	margin: -10px 0 0 0;
+    height: 370px;
 }
 
 figure {
@@ -553,6 +553,10 @@ footer {
 		width: auto;
 		text-align: center;
 	}
+
+	.img-thunder {
+		height: 270px;
+	}
 }
 
 @media screen and (max-width: 767px){
@@ -591,6 +595,20 @@ footer {
 	.project-description {
 		font-size: .8em;
 	}
+
+	.experience {
+		width: auto;
+		flex-shrink: initial;
+	}
+
+	.experience-image {
+		width: 100%;
+	}
+
+	.experience-list {
+		display: block;
+		width: 70%;
+	}
 }
 
 @media screen and (max-width: 480px){
@@ -609,6 +627,47 @@ footer {
 	.project-more-description {
 		font-size: .8em;
 	}
+
+	.experience-container {
+		margin: -2em 1.4em 1em;
+    	padding: 1em;
+    	width: 80%;
+	}
+
+	.experience-list {
+		display: block;
+		width: 90%;
+	}
+
+	.img-enigma {
+		padding: 10%;
+	}
+
+	.ability-progress {
+		padding: 2.3%;
+	}
+
+	.progress-item {
+		height: 10px;
+	}
+
+	.ability {
+		font-size: 16px;
+	}
+
+	.ability-item {
+		font-size: 1em;
+	}
+}
+
+@media screen and (max-width: 424px){
+	.img-thunder {
+    	margin: -10% 0;
+	}
+
+	.experience-container {
+		margin: -2em .8em 1em;
+	}	
 }
 
 @media screen and (max-width: 320px){
