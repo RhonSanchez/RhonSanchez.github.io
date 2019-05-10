@@ -322,9 +322,15 @@ h2 {
 }
 
 /*seccion de estudios*/
+.study {
+	background-color: #1b2127;
+}
+
 .study .container h2 {
 	font-size: 50px;
 	color: white;
+	margin-top: 0;
+	text-align: center;
 }
 
 .ucla {
@@ -363,13 +369,13 @@ h2 {
 }
 
 .studyContainer {
-	margin: 20px 0 20px 0;
+	margin: 20px auto;
 	border-radius: 30px;
 	padding: 20px;
-	display: flex;
+	display: block;
     align-items: center;
     justify-content: space-between;
-    flex-wrap: wrap;
+    width: 90%;
 }
 
 .study-course {
@@ -380,15 +386,18 @@ h2 {
 
 .study-image, .img.course {
 	object-fit: cover;	
+	width: 40%;
+	display: block;
+    margin: 0 auto;
 }
 
 .img-course {
 	width: 370px;
-	height: 250px;
+	margin: 10px;
 }
 
 .study-imageContainer-course {
-	margin: 30px 0 30px 0;
+	margin: 0;
 }
 
 /*seccion de experiencia y colaboraciones*/
@@ -599,6 +608,7 @@ footer {
 	.experience {
 		width: auto;
 		flex-shrink: initial;
+		margin-bottom: 10px;
 	}
 
 	.experience-image {
@@ -609,6 +619,11 @@ footer {
 		display: block;
 		width: 70%;
 	}
+
+	.study-image {
+		width: 60%;
+	}
+
 }
 
 @media screen and (max-width: 480px){
@@ -658,6 +673,24 @@ footer {
 	.ability-item {
 		font-size: 1em;
 	}
+
+	.study-detail {
+		font-size: 20px;
+	}
+
+	.study-description-ucla, .study-description-platzi {
+		font-size: 1em;
+	}
+
+	.img-course {
+		width: 70%;
+		display: block;
+		margin: 10px auto;
+	}
+
+	.study .container h2 {
+		font-size: 30px;
+	}
 }
 
 @media screen and (max-width: 424px){
@@ -668,8 +701,14 @@ footer {
 	.experience-container {
 		margin: -2em .8em 1em;
 	}	
+
+	.studyContainer {
+		padding: .5em;
+	}
 }
 
 @media screen and (max-width: 320px){
-	
+	.project-url a {
+    	font-size: .8em;
+	}	
 }
