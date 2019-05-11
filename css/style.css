@@ -16,7 +16,6 @@ h1, h2, h3, h4, h5, h6 {
 	justify-content: space-between;
 	height: 70px;
 	display: flex;
-	flex-wrap: wrap;
 }
 
 .header ol {
@@ -66,23 +65,24 @@ h1, h2, h3, h4, h5, h6 {
 /*Imagen de portada*/
 .cover-image img {
 	display: block;
-	margin: auto;
+	margin: 0 auto;
+	width: 90%;
 }
 
 .cover-image {
 	background-color: #1b2127;
-	margin: 50px 0;
+	margin: 0;
 }
 
 /*Sección Sobre Mí*/
 .hero {
-	height: 500px;
-	width: 1100px;
-	margin: 50px auto;
+	background-color: #1b2127;
+	height: auto;
+	width: 100%;
+	margin: 0 auto;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	flex-wrap: wrap;
 }
 
 .hero.container {
@@ -113,7 +113,7 @@ h3 strong {
 .hero-image {
 	object-fit: cover;
 	height: inherit;
-	margin-top: 50px;
+	width: 50%;
 }
 
 /*seccion de portafolio*/
@@ -539,9 +539,11 @@ footer {
 }
 
 @media screen and (max-width: 882px){
+
 	.header {
 		display: block;
 		height: auto;
+		flex-wrap: wrap;
 	}
 
 	.header ol {
@@ -576,6 +578,28 @@ footer {
 }
 
 @media screen and (max-width: 767px){
+
+	.hero  {
+		height: auto;
+		position: relative;
+		overflow: hidden;
+	}
+
+	.hero .container h3 {
+		font-size: 2em;
+		z-index: 2;
+		margin: 60px 30px;
+	}
+
+	.hero-image {
+		position: absolute;
+		z-index: 1;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		width: 100%;
+	}
 
 	.project {
 		display: block;
@@ -647,6 +671,11 @@ footer {
 }
 
 @media screen and (max-width: 480px){
+
+	.hero .container h3 {
+		font-size: 1.5em;
+	}
+
 	.project-details {
 		font-size: 12px;
 	}
@@ -710,6 +739,11 @@ footer {
 
 	.study .container h2 {
 		font-size: 30px;
+	}
+
+	.hero .container h3 {
+		font-size: 1.4em;
+		margin: 10px 30px;
 	}
 }
 
