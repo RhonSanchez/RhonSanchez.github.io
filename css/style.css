@@ -350,6 +350,33 @@ h2 {
 	padding: 20px;
 }
 
+.ability .container {
+	display: flex;
+	justify-content: space-around;
+}
+
+.ability-description {
+	color: white;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.ability-name {
+	background-color: white;
+	width: 60%;
+	margin: 0 auto;
+	border-radius: 20px;
+}
+
+.container-progress {
+	width: 40%;
+}
+
+.container-progress i {
+	font-size: 1.3em;
+    margin: 10px;
+}
+
 .abilityContent {
 	display: inline;
 	background: white;
@@ -357,7 +384,6 @@ h2 {
 	position: relative;
 	left: 45%;
 	top: 70%;
-
 }
 
 .ability-title {
@@ -367,11 +393,12 @@ h2 {
 }
 
 .ability-item {
-	color: white;
+	color: black;
 	font-size: 20px;
-	font-weight: 500;
+	font-weight: 900;
 	text-transform: uppercase;
 	text-align: center;
+	padding: 10px;
 }
 
 .progress {
@@ -815,6 +842,15 @@ footer {
 		font-size: .8em;
 	}
 
+	.ability .container {
+		display: block;
+	}
+
+	.container-progress {
+		width: 90%;
+		margin: 0 auto;
+	}
+
 	.experience {
 		width: auto;
 		flex-shrink: initial;
@@ -886,6 +922,10 @@ footer {
 		padding: 2.3%;
 	}
 
+	.ability-item {
+		padding: 2px;
+	}
+
 	.progress-item {
 		height: 10px;
 	}
@@ -923,6 +963,10 @@ footer {
 }
 
 @media screen and (max-width: 424px){
+	.ability-name {
+		width: 80%
+	}
+
 	.img-thunder {
     	margin: -10% 0;
 	}
