@@ -24,6 +24,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-language:before {
+  content: "\e912";
+}
 .icon-git:before {
   content: "\e906";
   color: #f05032;
@@ -350,15 +353,25 @@ h2 {
 	padding: 20px;
 }
 
+.ability-header {
+	background: white;
+	border-radius: 20px;
+	width: 80%;
+	margin: 0 auto;
+	padding: 10px;
+}
+
 .ability .container {
 	display: flex;
 	justify-content: space-around;
 }
 
 .ability-description {
-	color: white;
+	color: black;
     font-size: 20px;
-    text-align: justify;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
 }
 
 .ability-name {
@@ -387,7 +400,7 @@ h2 {
 }
 
 .ability-title {
-	color: white;
+	color: black;
 	text-align: center;
 	margin: 0;
 }
@@ -440,17 +453,17 @@ h2 {
 }
 
 .ability-php {
-	width: 40%;
-	background-color: yellow;
+	width: 30%;
+	background-color: red;
 }
 
 .ability-laravel {
-	width: 50%;
+	width: 35%;
 	background-color: yellow;
 }
 
 .ability-angular {
-	width: 60%;
+	width: 40%;
 	background-color: yellow;
 }
 
@@ -460,7 +473,7 @@ h2 {
 }
 
 .ability-wp {
-	width: 50%;
+	width: 65%;
 	background-color: yellow;
 }
 
@@ -935,7 +948,11 @@ footer {
 	}
 
 	.ability-item {
-		font-size: 1em;
+		font-size: .9em;
+	}
+
+	.ability-name {
+		width: 50%
 	}
 
 	.study-detail {
@@ -963,8 +980,9 @@ footer {
 }
 
 @media screen and (max-width: 424px){
-	.ability-name {
-		width: 80%
+	.ability-description {
+	    font-size: 18px;
+	    width: 85%;
 	}
 
 	.img-thunder {
