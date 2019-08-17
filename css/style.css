@@ -164,6 +164,10 @@ h1, h2, h3, h4, h5, h6 {
 	height: inherit;
 }
 
+.menu li:hover{
+	opacity: 0.5;
+} 
+
 .header a {
 	color: white;
 	text-decoration: none;
@@ -582,6 +586,30 @@ h2 {
 	flex-wrap: wrap;
 }
 
+.container-exp {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, 40%);
+	grid-gap: 10px;
+	justify-content: center; 
+	overflow: hidden;
+}
+
+.level-1 {
+	grid-row-end: span 2; 
+	background: lightgrey;
+}
+
+.level-2 {
+	grid-row-end: span 3;
+	background: lightgrey;
+	overflow: hidden;
+}
+
+.level-3 {
+	grid-row-end: span 2;
+	background: lightgrey;
+}
+
 .experience {
 	margin: 1%;
     width: 48%;
@@ -718,7 +746,7 @@ footer {
 /*Responsive Design: Desktop first*/
 
 @media screen and (max-width: 1024px){
-	.portfolio {
+	.portfolio, .main-experience {
 		padding: 5px;
 	}
 }
@@ -735,7 +763,15 @@ footer {
 	}
 
 	.img-thunder {
-		height: 270px;
+		height: 400px;
+	}
+
+	.container-exp {
+		grid-template: repeat(7, 220px) / repeat(auto-fill, 80%);
+	}
+
+	.level-3 {
+		grid-row-end: span 3;
 	}
 }
 @media screen and (min-width: 882px){
@@ -746,15 +782,6 @@ footer {
 }
 
 @media screen and (max-width: 767px){
-
-	h2 {
-		font-size: 1em;
-		margin: .5em 0;
-	}
-
-	.main-experience {
-		padding-top: 0;
-	}
 
 	.burger-button {
 		display: block;
@@ -926,7 +953,6 @@ footer {
 	.experience-container {
 		margin: -2em 1.4em 1em;
     	padding: 1em;
-    	width: 80%;
 	}
 
 	.experience-list {
@@ -936,6 +962,12 @@ footer {
 
 	.img-enigma {
 		padding: 10%;
+		object-fit: contain;
+	}
+	
+	.img-thunder {
+	    object-fit: contain;
+		height: auto;
 	}
 
 	.ability-progress {
@@ -997,7 +1029,7 @@ footer {
 	}
 
 	.experience-container {
-		margin: -2em .8em 1em;
+		margin: -1em 1.5em;
 	}	
 
 	.studyContainer {
