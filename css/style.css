@@ -447,8 +447,8 @@ h2 {
 }
 
 .ability-css {
-	width: 60%;
-	background-color: yellow;
+	width: 70%;
+	background-color: green;
 }
 
 .ability-js {
@@ -521,6 +521,21 @@ h2 {
 	background-color: #2C2F34;
 }
 
+.study-more a {
+	font-size: 2em;
+	color: white;
+	text-decoration: none;
+}
+
+.study-more a:hover {
+	color: #026fff;
+}
+
+.study-more-content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 
 .study-title-ucla {
 	color: #3185C1;
