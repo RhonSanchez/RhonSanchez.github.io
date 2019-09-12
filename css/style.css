@@ -187,6 +187,7 @@ h1, h2, h3, h4, h5, h6 {
 	align-items: inherit;
 	height: inherit;
 	flex-wrap: inherit;
+	padding: 10px 0 0;
 }
 
 /*Imagen de portada*/
@@ -312,6 +313,10 @@ h2 {
 	font-size: 20px;
 	color: black;
 	font-weight: 600;
+}
+
+.project-url a:hover {
+	color: #026fff;
 }
 
 .project-view {
@@ -526,7 +531,7 @@ h2 {
 
 .study-title-platzi {
 	color: white;
-	font-size: 70px;
+	font-size: 40px !important;
 	text-align: center;
 	letter-spacing: 5px;
 }
@@ -608,6 +613,7 @@ h2 {
 .level-3 {
 	grid-row-end: span 2;
 	background: lightgrey;
+	margin-bottom: 10px;
 }
 
 .experience {
